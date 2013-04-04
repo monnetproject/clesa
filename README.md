@@ -4,7 +4,7 @@ This is an IR based implementation of CLESA using Lucene library.
 
 It can be used for finding textual similarity across the language e.g. it can be applied for context disambiguation 
 in machine translation (http://oa.upm.es/14474/1/07.UsingCLESAforOntologyTranslation.pdf).
-It takes two texts (with lang codes) and returns a score between 0 and 1 showing the semantic relatedness between the texts.
+It takes two texts (with lang codes) as input and returns a score between 0 and 1 showing the semantic relatedness between the texts.
 
 This implementation requires a Lucene index having atleast following two fields signifying the topic and the topic content.
 The actual field names can be configured via config file. 
